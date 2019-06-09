@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slot Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="header-wrapper">
+        <div>
+          <span id="js-header">Spin results:</span>
+          <span id="js-result"></span>
+        </div>
+        <div>
+          <span>Total:</span>
+          <span id="js-total"></span>
+          <span>$</span>
+        </div>
+      </div>
+      <div id="js-canvas-wrapper" class="canvas-wrapper">
+        <div id="js-block-wrapper">
+          <div id="js-canvas-block-1" class="canvas-block">
+            <canvas id="js-canvas1" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas2" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas3" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas4" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas5" class="canvas-symbol"></canvas>
+          </div>
+          <div id="js-canvas-block-2" class="canvas-block">
+            <canvas id="js-canvas6" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas7" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas8" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas9" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas10" class="canvas-symbol"></canvas>
+          </div>
+          <div id="js-canvas-block-3" class="canvas-block">
+            <canvas id="js-canvas11" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas12" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas13" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas14" class="canvas-symbol"></canvas>
+            <canvas id="js-canvas15" class="canvas-symbol"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-elements">
+        <div class="buttons">
+          <button id="js-spin">Spin</button>
+          <button id="js-stop">Stop</button>
+        </div>
+        <div>
+          <label for="">Bet amount:</label>
+          <input type="number" name="bet-amount" id="js-bet-amount" min="5" value="5">
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

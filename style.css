@@ -1,0 +1,105 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(80, 80, 80)
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+
+#js-result {
+  color: rgb(241, 47, 13);
+  font-weight: 900;
+  margin-left: 6px;
+}
+
+#js-total {
+  color: rgb(2, 109, 2);
+  font-weight: 900;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+.canvas-wrapper {
+  background-image: url("images/13079.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 784px;
+  height: 361px;
+}
+
+.canvas-symbol {
+  width: 154px;
+  height: 117px;
+}
+
+.canvas-symbol-border,
+#js-bet-amount {
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.canvas-block,
+.bottom-elements {
+  display: flex;
+}
+
+#js-canvas-block-1,
+#js-canvas-block-3 {
+  opacity: 0.3;
+}
+
+.block-background {
+  background-color: rgb(250, 250, 250);
+}
+
+.block-wrapper {
+  padding: 2px;
+  background-color: rgb(224, 224, 224);
+}
+
+.canvas-block-1,
+.canvas-block-3 {
+  background-color: #fff;
+}
+
+.bottom-elements {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#js-bet-amount {
+  font-weight: 900;
+  color: rgb(30, 132, 172);
+  height: 21px;
+  padding: 4px;
+  width: 45px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  border: 1px solid #dadada;
+  background-color: #dddbdd;
+  color: rgb(80, 80, 80);
+  height: 35px;
+  width: 60px;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
